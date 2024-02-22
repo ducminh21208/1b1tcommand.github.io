@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Để chữ ra giữa trang */
+}
+
+h1 {
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và danh sách lệnh */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Để danh sách lệnh căn trái */
+}
+
+.command {
+    color: #6e6e6e; /* Màu nâu xám */
+    font-size: 16px; /* Kích thước chữ */
+}
+
+.argument {
+    color: black; /* Màu đen cho các đối số */
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center; /* Để chữ trong mỗi lệnh căn giữa */
+}
+
+li:hover {
+    background-color: #eaeaea;
+}
